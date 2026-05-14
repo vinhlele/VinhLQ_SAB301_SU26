@@ -1,0 +1,110 @@
+.app {
+  min-height: 100vh;
+  background: #f7f8fb;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.banner-section {
+  background: #111827;
+}
+
+.banner-image {
+  height: 440px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(17, 24, 39, 0.58);
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.carousel-caption h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.carousel-caption p {
+  color: #eef2ff;
+  margin: 0;
+}
+
+.orchid-section {
+  padding: 48px 0 64px;
+}
+
+.section-heading {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.section-heading h1 {
+  color: #172033;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.section-heading p {
+  color: #5d6678;
+}
+
+.orchid-card {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+  overflow: hidden;
+}
+
+.orchid-card .card-img-top {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.orchid-card .card-title {
+  color: #172033;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.orchid-card .card-text {
+  color: #5d6678;
+  font-size: 15px;
+}
+
+.orchid-meta {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.orchid-meta strong {
+  color: #0f766e;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .banner-image {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    padding: 12px 16px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 24px;
+  }
+
+  .section-heading h1 {
+    font-size: 28px;
+  }
+}
