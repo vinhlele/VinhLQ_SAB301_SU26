@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "cd ex1 && npm run dev",
+    "build": "cd ex1 && npm run build",
+    "preview": "cd ex1 && npm run preview",
+    "lint": "cd ex1 && npm run lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react-bootstrap": "^2.10.10"
+  }
+}
